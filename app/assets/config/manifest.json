@@ -1,0 +1,22 @@
+{
+	"vendor" : {
+		"scripts" : [
+			"./assets/js/vendor/jquery.js",
+			"./assets/js/vendor/underscore.js",
+			"./assets/js/vendor/backbone.js",
+			"./assets/js/vendor/backbone.marionette.js"
+		]
+	},
+
+	"app" : {
+		"scripts" : [
+			"./assets/js/app-js/**/*.js"
+		],
+		"styles" : [
+			"./assets/sass/**/*.scss"
+		],
+		"templates" : [
+			"./assets/templates/**/*.hbs"
+		]
+	}
+}
