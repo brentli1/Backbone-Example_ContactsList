@@ -4,13 +4,16 @@
 			"./assets/js/vendor/jquery.js",
 			"./assets/js/vendor/underscore.js",
 			"./assets/js/vendor/backbone.js",
-			"./assets/js/vendor/backbone.marionette.js"
+			"./assets/js/vendor/handlebars.js"
 		]
 	},
 
 	"app" : {
 		"scripts" : [
-			"./assets/js/app-js/**/*.js"
+			"./assets/js/app-js/models/*.js",
+			"./assets/js/app-js/views/*.js",
+			"./assets/js/app-js/collections/*.js",
+			"./assets/js/app-js/router/**/*.js"
 		],
 		"styles" : [
 			"./assets/sass/**/*.scss"

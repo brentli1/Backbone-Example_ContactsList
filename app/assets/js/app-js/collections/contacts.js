@@ -1,5 +1,5 @@
 ContactManager.Collections.Contacts = Backbone.Collection.extend({
 
-	model: ContactManager.Models.Contact,
+	model: ContactManager.Models.Contact
 
 });

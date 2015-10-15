@@ -9,7 +9,6 @@ ContactManager.Models.Contact = Backbone.Model.extend({
 
 	initialize: function() {
 		this.set('avatar', _.random(1, 15) + '.jpg');
-		console.log('initialized', this.avatar);
 	}
 
 });
