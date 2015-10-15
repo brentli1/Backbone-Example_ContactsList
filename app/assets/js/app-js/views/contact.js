@@ -1,6 +1,6 @@
 ContactManager.Views.Contact = Backbone.View.extend({
 	tagName: 'li',
-	className: 'media col-md-6 col-lg-4',
+	className: 'contact--wrap',
 	template: ContactManager.templates.contact,
 
 	render: function() {

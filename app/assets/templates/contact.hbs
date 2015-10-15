@@ -1,17 +1,10 @@
-<div class="thumbnail">
-    <img class="media-object" src="app/img/faces/<%- avatar %>">
-  </div>
-  <div class="media-heading">
-    <h3>
-      {{name}}
-    </h3>
-  </div>
-  <div class="media-body">
-    <dl>
-      <dt>Phone Number:</dt>
-      <dd>{{tel}}</dd>
-      <dt>Email:</dt>
-      <dd>{{email}}</dd>
-    </dl>
-  </div>
-  <hr>
+<img class="media-object" src="app/img/faces/<%- avatar %>">
+<div class="contact--heading">
+  <h3>
+    {{name}}
+  </h3>
+</div>
+<ul class="contact--information">
+  <li>Phone Number: {{ tel }}</li>
+  <li>Email: {{ email }}</li>
+</ul>
