@@ -35,3 +35,44 @@
 .contact--information {
 	color: #747E84;
 }
+
+.contact--form {
+	text-align: center;
+}
+
+.contact--form-label_wrap {
+	font-size: 1.1rem;
+	margin: 0 auto;
+	min-width: 250px;
+	max-width: 500px;
+	text-align: left;
+	width: 100%;
+}
+
+.contact--form-input {
+	background-color: #C8C4D0;
+	border: none;
+	border-bottom: 3px solid #DCD7D7;
+	font-size: 1.1rem;
+	outline: none;
+	margin: 5px 0 15px;
+	min-width: 250px;
+	max-width: 500px;
+	padding: 10px;
+	transition-duration: 500ms;
+	width: 100%;
+}
+
+.contact--form-input:focus {
+	background-color: #E5E2EA;
+	border-bottom: 4px solid #000000;
+}
+
+.contact--submit {
+	margin: 10px auto;
+}
+
+.link--cancel {
+	display: inline-block;
+	margin: 0 auto;
+}
