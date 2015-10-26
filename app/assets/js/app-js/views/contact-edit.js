@@ -15,7 +15,7 @@ ContactManager.Views.ContactForm = Backbone.View.extend({
     },
 
     render: function() {
-        var html = this.template();
+        var html = this.template(_.extend(this.model.toJSON()));
         this.$el.append(html);
         return this;
     }

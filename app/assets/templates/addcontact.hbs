@@ -1,23 +1,23 @@
-<h3 class="page--header">Add New Contact</h3>
+<h3 class="page--header">{{#unless name}}Add New{{else}}Edit{{/unless}} Contact</h3>
 <form role="form" class="contact--form">
     <div class="contact--form-group">
         <div class="contact--form-label_wrap">
             <label class="contact--form-label">Name:</label>
         </div>
-        <input type="text" class="contact--form-input js-contact--name"></input>
+        <input type="text" class="contact--form-input js-contact--name" value="{{name}}"></input>
     </div>
     <div class="contact--form-group">
         <div class="contact--form-label_wrap">
             <label class="contact--form-label">Email:</label>
         </div>
-        <input type="email" class="contact--form-input js-contact--email"></input>
+        <input type="email" class="contact--form-input js-contact--email" value="{{email}}"></input>
     </div>
     <div class="contact--form-group">
         <div class="contact--form-label_wrap">
             <label class="contact--form-label">Telephone:</label>
         </div>
-        <input type="tel" class="contact--form-input js-contact--tel"></input>
+        <input type="tel" class="contact--form-input js-contact--tel" value="{{tel}}"></input>
     </div>
-    <button type="submit" class="btn contact--submit">Add Contact</button>
+    <button type="submit" class="btn contact--submit">{{#unless name}}Add{{else}}Edit{{/unless}} Contact</button>
     <a href="#contacts" class="link--cancel">Cancel</a>
 </form>

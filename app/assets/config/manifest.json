@@ -16,7 +16,7 @@
 			"./assets/js/app-js/router/**/*.js"
 		],
 		"styles" : [
-			"./assets/sass/**/*.scss"
+			"./assets/sass/styles.scss"
 		],
 		"templates" : [
 			"./assets/templates/**/*.hbs"
